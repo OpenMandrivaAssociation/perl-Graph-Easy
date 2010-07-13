@@ -1,5 +1,5 @@
 %define upstream_name    Graph-Easy
-%define upstream_version 0.64
+%define upstream_version 0.69
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
