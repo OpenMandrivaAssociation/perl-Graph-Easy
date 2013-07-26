@@ -1,14 +1,14 @@
 %define upstream_name    Graph-Easy
-%define upstream_version 0.72
+%define upstream_version 0.73
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.72
+Version:	%perl_convert_version 0.73
 Release:	1
 
 Summary:	Parse Graphviz text into Graph::Easy
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Graph/Graph-Easy-0.72.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Graph/Graph-Easy-0.73.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -68,4 +68,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Sep 17 2009 cpan2dist 0.64-1mdv
 - initial mdv release, generated with cpan2dist
+
 
