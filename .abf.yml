@@ -2,5 +2,6 @@ removed_sources:
   Graph-Easy-0.70.tar.gz: fef34e6cbf9411532c9212b29c7a528ebbc531af
   Graph-Easy-0.72.tar.gz: ee131816f1126a4a20f533c067b9f836926cc9ef
   Graph-Easy-0.73.tar.gz: 72ddb7e4e24b2038d2e218e787bfd4ef270aee38
-sources:
   Graph-Easy-0.74.tar.gz: 89e272904eedf89d15ce32e79453dda58639909d
+sources:
+  Graph-Easy-0.75.tar.gz: 482304ee0246d4472e05f4a05fb462ed06fdb972
