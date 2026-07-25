@@ -1,16 +1,16 @@
 %define upstream_name    Graph-Easy
-%define upstream_version 0.75
+%define upstream_version 0.76
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Parse Graphviz text into Graph::Easy
 
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Graph/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://bitbucket.org/shlomif/perl-graph-easy
+Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Graph-Easy-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
