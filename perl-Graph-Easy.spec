@@ -1,8 +1,7 @@
 %define upstream_name    Graph-Easy
-%define upstream_version 0.76
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.76
+Release:	2
 
 Summary:	Parse Graphviz text into Graph::Easy
 
@@ -10,7 +9,7 @@ Summary:	Parse Graphviz text into Graph::Easy
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://bitbucket.org/shlomif/perl-graph-easy
-Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Graph-Easy-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Graph-Easy-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -31,7 +30,7 @@ Since the layouter works on a grid (manhattan layout), the output is most
 usefull for flow charts, network diagrams, or hierarchy trees.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 rm t/pod.t
 
 %build
